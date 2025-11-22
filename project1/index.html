@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="py-2">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Logo -->
+                <div class="col-2">
+                    <a href="#">
+                        <img src="images/logo 1.png" class="img-fluid" style="max-height:70px;">
+                    </a>
+                </div>
+
+                <!-- Search Box - Center -->
+                <div class="col-6 d-flex justify-content-center">
+                    <div class="search-box position-relative">
+                        <img src="images/search.png" class="search-icon">
+                        <input type="text" class="search-input">
+                        <button class="search-btn">Search</button>
+                    </div>
+                </div>
+
+                <!-- Nav Icons -->
+                <div class="col-4 d-flex justify-content-end align-items-center gap-3">
+
+                    <a href="#home" class="nav-link p-0">Home</a>
+                    <a href="#shop" class="nav-link p-0">Shop</a>
+                    <a href="#contact" class="nav-link p-0">Contact</a>
+
+                    <a href="#login" class="icon-link">
+                        <i class="fa fa-user"></i>Login/Sign Up
+                    </a>
+
+                    <a href="#cart" class="icon-link fw-600">
+                        <i class="fa fa-shopping-cart"></i> My Cart
+                    </a>
+
+                    <a href="#wishlist" class="icon-link fw-600">
+                        <i class="fa fa-heart"></i> Wishlist
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECOND HEADER -->
+        <div class="sub-header">
+            <div class="container">
+                <ul class="sub-nav d-flex justify-content-center align-items-center gap-4 m-0 p-0">
+
+                    <!-- Dropdown 1 -->
+                    <li class="sub-item dropdown">
+                        <a class="sub-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Vegetables</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Potato</a></li>
+                            <li><a class="dropdown-item" href="#">tomato</a></li>
+                            <li><a class="dropdown-item" href="#">Bringle</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown 2 -->
+                    <li class="sub-item dropdown">
+                        <a class="sub-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Fruits</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Oranges</a></li>
+                            <li><a class="dropdown-item" href="#">Watermelon</a></li>
+                            <li><a class="dropdown-item" href="#">Grapes</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Link 1 -->
+                    <li class="sub-item">
+                        <a href="#" class="sub-link">Grains</a>
+                    </li>
+
+                    <!-- Link 2 -->
+                    <li class="sub-item">
+                        <a href="#" class="sub-link">Dryfruits</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- BANNER -->
+        <section class="banner-section position-relative">
+
+            <!-- TOP LEFT LEAF -->
+            <img src="images/leaf-1.png" class="leaf-top position-absolute" alt="leaf">
+
+            <!-- BOTTOM RIGHT LEAF -->
+            <img src="images/leaf-2.png" class="leaf-bottom position-absolute" alt="leaf">
+
+            <!-- CAROUSEL -->
+            <div id="myCarousel" class="carousel slide carousel-fade h-100">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100">
+                        <img src="images/banner 1.png" class="d-block w-100 h-100" alt="img1">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="images/banner2.avif" class="d-block w-100 h-100" alt="img2">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="images/banner 3.avif" class="d-block w-100 h-100" alt="img3">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <!-- BOTTOM DECOR SHAPE -->
+            <img src="images/bannerBottomShape.png" class="banner-shape position-absolute" alt="shape">
+
+            <!-- TEXT OVER SLIDER -->
+            <div class="banner-text text-white row">
+                <div class="col-6">
+                    <div class="d-flex flex-column banner-objects">
+                        <h1 class="fw-bold banner-h1">100% Organic</h1>
+                        <h2 class="banner-h2">Fresh and Natural <br>Farm Food</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                        <button class="btn btn-warning text-dark fw-semibold px-4 py-2">Shop Now +</button>
+                    </div>
+                </div>
+                <div class="col-6"></div>
+            </div>
+
+
+        </section>
+
+        <!-- 1st section -->
+        <section>
+            <div class=" container py-5">
+                <div class="row inner-container">
+
+                    <!-- Item -->
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div class="icon-box d-flex justify-content-center align-items-center">
+                            <img src="images/cereal 1.png" width="35" alt="">
+                        </div>
+                        <p class="mt-2 text-center">Vegetables</p>
+                    </div>
+
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div class="icon-box d-flex justify-content-center align-items-center">
+                            <img src="images/cereal 2.png" width="35" alt="">
+                        </div>
+                        <p class="mt-2 text-center">Fruits</p>
+                    </div>
+
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div class="icon-box d-flex justify-content-center align-items-center">
+                            <img src="images/cereal 3.png" width="35" alt="">
+                        </div>
+                        <p class="mt-2 text-center">Bread</p>
+                    </div>
+
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div class="icon-box d-flex justify-content-center align-items-center">
+                            <img src="images/cereal 4.png" width="35" alt="">
+                        </div>
+                        <p class="mt-2 text-center">Juices</p>
+                    </div>
+
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div class="icon-box d-flex justify-content-center align-items-center">
+                            <img src="images/cereal 5.png" width="35" alt="">
+                        </div>
+                        <p class="mt-2 text-center">Tea</p>
+                    </div>
+
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div class="icon-box d-flex justify-content-center align-items-center">
+                            <img src="images/cereal 6.png" width="35" alt="">
+                        </div>
+                        <p class="mt-2 text-center">Others</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- 2nd section -->
+        <section class="py-5 pt-1">
+            <div class="container text-center">
+
+                <p class="sub-text">Visit Our Shop</p>
+                <h3 class="section-heading mb-5">Featured Products</h3>
+
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Product 1 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/grapes.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Juicy Grapes</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 80<br><span>₹ 100</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">17% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/walnuts.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">J&amp;K Walnuts</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 500<br><span>₹ 600</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/watermelon-product.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Red Watermelon</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 40<br><span>₹ 50</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/cashue.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Fresh Cashew</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 400<br><span>₹ 500</span></p>
+                                <button class="btn btn-success btn-sm px-3">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="btn all-product-btn btn-warning text-dark fw-semibold px-4 py-2 mt-4">All Products
+                    +</button>
+
+            </div>
+        </section>
+
+
+        <!-- 3rd section -->
+        <section class="section-3 py-5">
+            <div class="container section-3-wrapper">
+
+                <div class="row justify-content-center">
+
+                    <!-- LEFT BOX -->
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="bg-yellow p-3">
+                            <div class="inner-box position-relative p-4">
+                                <h3 class="fw-bold text-white">ORANGES</h3>
+
+                                <!-- Discount Tag -->
+                                <span class="discount-tag">20% Off</span>
+
+                                <!-- Fruit Image -->
+                                <img src="images/orange 1.png" class="fruit-img f-img1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT BOX -->
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="bg-orange p-3">
+                            <div class="inner-box position-relative p-4">
+                                <h3 class="fw-bold text-white">WATERMELON</h3>
+
+                                <span class="discount-tag">20% Off</span>
+
+                                <img src="images/jk 1.png" class="fruit-img f-img2">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 4th section -->
+        <section class="section-4 py-5">
+             <div class="container text-center">
+
+                <p class="sub-text">Visit Our Shop</p>
+                <h3 class="section-heading mb-5">Featured Products</h3>
+
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Product 1 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/grapes.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Juicy Grapes</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 80<br><span>₹ 100</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">17% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/walnuts.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">J&amp;K Walnuts</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 500<br><span>₹ 600</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/watermelon-product.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Red Watermelon</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 40<br><span>₹ 50</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/cashue.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Fresh Cashew</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 400<br><span>₹ 500</span></p>
+                                <button class="btn btn-success btn-sm px-3">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="btn all-product-btn btn-warning text-dark fw-semibold px-4 py-2 mt-4">All Products
+                    +</button>
+
+            </div>
+        </section>
+
+        <!-- SECTION 5 -->
+        <section class="section-5 position-relative">
+
+            <!-- Top Wave -->
+            <img src="images/green.png" class="section-top-wave" alt="">
+
+            <!-- Floating Images -->
+            <img src="images/lemon.png" class="lemon-img" alt="">
+            <img src="images/jk 1.png" class="watermelon-img" alt="">
+            <img src="images/vegi.png" class="basket-img" alt="">
+
+            <div class="container text-center">
+
+                <h2 class="section-title">Why Choose Us</h2>
+
+                <div class="row features-grid mx-auto">
+
+                    <!-- 1 -->
+                    <div class="col-12 col-md-6 feature-cell text-end">
+                        <h3 class="feature-title">100% Natural</h3>
+                        <p class="feature-description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="col-12 col-md-6 feature-cell text-start">
+                        <h3 class="feature-title">Always Fresh</h3>
+                        <p class="feature-description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="col-12 col-md-6 feature-cell text-end">
+                        <h3 class="feature-title">Premium Quality</h3>
+                        <p class="feature-description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="col-12 col-md-6 feature-cell text-start">
+                        <h3 class="feature-title">Super Healthy</h3>
+                        <p class="feature-description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 6th section -->
+        <section class="section-6 py-5">
+             <div class="container text-center">
+
+                <p class="sub-text">Visit Our Shop</p>
+                <h3 class="section-heading mb-5">Featured Products</h3>
+
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Product 1 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/grapes.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Juicy Grapes</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 80<br><span>₹ 100</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">17% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/walnuts.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">J&amp;K Walnuts</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 500<br><span>₹ 600</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/watermelon-product.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Red Watermelon</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 40<br><span>₹ 50</span></p>
+                                <button class="btn btn-success btn-sm px-3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="col-lg-3">
+                        <div class="product-card p-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="offer-tag">20% OFF</span>
+                                 <img src="images/veg.png" class="veg-icon" alt="">
+                            </div>
+
+                            <img src="images/cashue.jpg" class="product-img" alt="">
+
+                            <h6 class="product-title">Fresh Cashew</h6>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="price mb-0">₹ 400<br><span>₹ 500</span></p>
+                                <button class="btn btn-success btn-sm px-3">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="btn all-product-btn btn-warning text-dark fw-semibold px-4 py-2 mt-4">All Products
+                    +</button>
+
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white pt-5 pb-3 position-relative">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- About -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="fw-bold mb-3">About</h5>
+                <p class="text-secondary small text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="text-success small fw-semibold d-inline-flex align-items-center gap-1">
+                    <i class="fas fa-arrow-right small"></i> FIND US ON MAP
+                </a>
+            </div>
+
+            <!-- Support -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="fw-bold mb-3">Our Support</h5>
+                <ul class="list-unstyled small">
+                    <li class="mb-2 "><a href="#" class="text-secondary text-decoration-none">Help and Ordering</a></li>
+                    <li class="mb-2 "><a href="#" class="text-secondary text-decoration-none">Return & Cancellation</a></li>
+                    <li class="mb-2 "><a href="#" class="text-secondary text-decoration-none">Delivery Schedule</a></li>
+                    <li class="mb-2 "><a href="#" class="text-secondary text-decoration-none">Get a Call</a></li>
+                    <li class="mb-2 "><a href="#" class="text-secondary text-decoration-none">Online Enquiry</a></li>
+                    <li class="mb-2 "><a href="#" class="text-secondary text-decoration-none">My Account</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="fw-bold mb-3">Contact Info</h5>
+
+                <div class="d-flex gap-2 mb-3">
+                    <i class="fas fa-map-marker-alt text-secondary mt-1"></i>
+                    <div class="small">
+                        <span class="fw-semibold text-light">LOCATION</span><br>
+                        <span class="text-secondary">2301 Quada Street Victoria Road, New York</span>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-2 mb-3">
+                    <i class="fas fa-phone text-secondary mt-1"></i>
+                    <div class="small">
+                        <span class="fw-semibold text-light">CALL US</span><br>
+                        <span class="text-secondary">987-098-0987</span>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-2 mb-3">
+                    <i class="fas fa-envelope text-secondary mt-1"></i>
+                    <div class="small">
+                        <span class="fw-semibold text-light">EMAIL US</span><br>
+                        <span class="text-secondary">trifles@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="fw-bold mb-3">Newsletter</h5>
+                <p class="text-secondary small">Subscribe to get the latest updates.</p>
+
+                <input type="email" class="form-control mb-2 rounded-pill py-2" placeholder="Enter your email">
+
+                <button class="btn btn-success w-100 rounded-pill d-flex align-items-center justify-content-center gap-2 fw-semibold py-2">
+                    Subscribe Now <i class="fas fa-plus"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="border-top border-secondary mt-4 pt-3 row">
+            <div class="col-md-6 small text-secondary">
+                Copyright © 2021 Trifles. All Rights Reserved.
+            </div>
+            <div class="col-md-6 small text-end">
+                <a href="#" class="text-secondary text-decoration-none ms-3">Terms & Conditions</a>
+                <a href="#" class="text-secondary text-decoration-none ms-3">Privacy Policy</a>
+            </div>
+        </div>
+
+        <!-- Scroll to top button -->
+        <button id="scrollTopBtn" class="btn btn-success rounded-circle shadow position-fixed">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+    </div>
+</footer>
+    <!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
